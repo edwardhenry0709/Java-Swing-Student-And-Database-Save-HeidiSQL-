@@ -1,0 +1,11 @@
+CREATE TABLE `student` (
+	`Student_ID` VARCHAR(20) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`NAME` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`Class_Room` VARCHAR(10) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`Major` VARCHAR(20) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`Mark` DOUBLE(22,0) NULL DEFAULT NULL,
+	`Gender` BIT(1) NULL DEFAULT NULL
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;
